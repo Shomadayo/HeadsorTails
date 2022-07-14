@@ -5,14 +5,14 @@ class ayanobu
 {
     public static void main(String[] args)
     {
-	/*Scanner scanner = new Scanner(System.in);
+	Scanner scanner = new Scanner(System.in);
 
         System.out.println("who are you?");
         System.out.println(">");
 
         String namae = scanner.nextLine();
         System.out.println("Hello, "+namae+"!");
-        */
+        
         System.out.println("Tossing a coin... ");
 
         int i = 0;
@@ -39,7 +39,7 @@ class ayanobu
         }
         
         System.out.println("Heads : " + Headsman + ", " + "Tails : " + Tailswoman);
-	/*if(Headsman > Tailswoman)System.out.println("you won");
-	  else System.out.println("you lose");*/
+	if(Headsman > Tailswoman)System.out.println("you won");
+	  else System.out.println("you lose");
     }
 }
