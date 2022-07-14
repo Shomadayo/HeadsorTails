@@ -39,7 +39,7 @@ class ayanobu
         }
         
         System.out.println("Heads : " + Headsman + ", " + "Tails : " + Tailswoman);
-	if(Headsman > Tailswoman)System.out.println("you won");
-	  else System.out.println("you lose");
+	if(Headsman > Tailswoman)System.out.println(namae +" won!");
+	  else System.out.println(namae +" lose.");
     }
 }
